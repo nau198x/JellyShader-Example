@@ -63,11 +63,11 @@ Material:
     - _DstBlend: 0
     - _Frequency: 10
     - _GlossMapScale: 1
-    - _Glossiness: 0.4
+    - _Glossiness: 0.2
     - _GlossyReflections: 1
     - _ImpactSpeed: 0.5
     - _MaxWaveDistortion: 1
-    - _Metallic: 0.2
+    - _Metallic: 0.1
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
@@ -79,7 +79,7 @@ Material:
     - _WaveSpeed: -5
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.31706125, g: 0.80346614, b: 0.8962264, a: 1}
+    - _Color: {r: 0.9811321, g: 0.23602703, b: 0.55758494, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _ImpactOrigin: {r: -5, g: 0, b: 0, a: 0}
     - _ModelOrigin: {r: 0, g: 0, b: 0, a: 0}

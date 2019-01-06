@@ -1,8 +1,7 @@
 ﻿<Properties StartupConfiguration="{B79AF107-F803-E8FC-F3F2-6C0CC3DBC708}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/JellyShader/Shaders/JellyShader.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Study/JellyShader2.shader">
     <Files>
-      <File FileName="Assets/Study/JellyShader2.shader" Line="38" Column="15" />
-      <File FileName="Assets/JellyShader/Shaders/JellyShader.shader" Line="1" Column="1" />
+      <File FileName="Assets/Study/JellyShader2.shader" Line="53" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class rotation : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		transform.Rotate(new Vector3(0, 90, 0) * Time.deltaTime, Space.World);
+    public float f = 0.0f;
+    public float speed = 45.0f;
+    public Vector3 v = Vector3.zero;
+
+    void FixedUpdate () {
+        //if (f < 90.0f)
+        //{
+            v += new Vector3(1, 1, 1) * Time.deltaTime * speed;
+            transform.transform.eulerAngles = v;
+            //f += Time.deltaTime * speed;
+        //}
     }
 }
