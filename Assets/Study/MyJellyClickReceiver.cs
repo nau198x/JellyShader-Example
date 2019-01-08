@@ -4,18 +4,24 @@ using UnityEngine;
 
 public class MyJellyClickReceiver : MonoBehaviour {
 
+    RaycastHit hit;
+    Ray clickRay;
+
     Renderer modelRenderer; // MeshRendererのComponentをキャッシュする
     float controlTime;
 
-    private void Start()
-    {
+    private void Start() {
         modelRenderer = GetComponent<MeshRenderer>();
     }
 
-    private void Update()
-    {
+    private void Update() {
         controlTime += Time.deltaTime;
-        if (Input.GetMouseButtonDown(0)) controlTime = 0;
+        if (Input.GetMouseButtonDown(0)) {
+            clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(clickRay, out hit)) {
+                controlTime = 0;
+            }
+        }
         modelRenderer.material.SetFloat("_ControlTime", controlTime);
     }
 

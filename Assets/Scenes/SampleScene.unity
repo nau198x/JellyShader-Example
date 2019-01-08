@@ -318,6 +318,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f1a9cc29510a4f66a815ad8901e0e8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!135 &846971090
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 846971085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1802183659 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: fc5f274d483f9d24b95d2f4a7eb88be9,
