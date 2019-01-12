@@ -20,6 +20,8 @@ public class MyJellyClickReceiver : MonoBehaviour {
             clickRay = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(clickRay, out hit)) {
                 controlTime = 0;
+                modelRenderer.material.SetVector("_ModelOrigin", transform.position);
+                modelRenderer.material.SetVector("_ImpactOrigin", hit.point);
             }
         }
         modelRenderer.material.SetFloat("_ControlTime", controlTime);
